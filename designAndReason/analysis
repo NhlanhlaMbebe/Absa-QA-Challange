@@ -1,0 +1,62 @@
+Product owner
+    - What is the vision of the system, what are you trying to solve
+        eg. Give me a vision of what the system is trying to solve and who are the target users that will be using the system.
+
+    - How is he going to achieve the vision
+        eg. Is the application going to be web based, desktop application or app?
+
+    - Is the a set of standard that we must abide too?
+        eg. The application must resonate with a specific set users of the system?
+            ie. Iphone users or Andriod users as an example?
+
+    -
+
+UX designer :
+    - Is the application going to be web based, desktop application or app?
+    - What error should displayed displayed when the set number of licenses has exceeded.
+    - What confirmation message should be displayed on the screen to ensure or give an impression to the user that they have
+    successfully added a user.
+    - When editing user information, what details can we edit and confirmation screen?
+    - How will the list of user be order?
+
+Technical Architect
+    - How will the application be divided 2 tier or 3 tier?
+    - Where will the user licenses be store?
+    - How will the system access the license server?
+    - Is the a service in between the application
+        - What standard is the service using?
+        - What protocol is the service using?
+    - What programming language will be used?
+    - What servers the application will be running on
+    - What are the specs of the server
+        - Memory
+        - CPU
+        - Disk
+
+2.
+    - I would want the application to have a screen related to roles ie:
+        - Add user
+        - Edit user
+        - Delete user
+
+    - On Add user, the input field that are required to add user should be displayed.
+    - A confirmation message screen should be displayed with the user details to re-confirm the submission of the user to be added
+    - A back button to allow the user to be able to edit the information or cancel.
+    - A confirmation message to confirm that a new user has been added successfully
+    - Error messages to be display should an existing user be re-captured
+
+
+    - Edit user
+        - Give the user the application to be able to restrict other users based on the ranking they have.
+
+    - Delete user
+        - Display a list of user that has been added
+        - Allow the user to filter based on the licenses allocated
+        - Select a user from the list and click on the delete button and Display the user's information and allow
+        the administrator to confirm the user details and delete.
+        - Cancel button to revert the changes.
+3.
+    - Automated :
+         - Add user
+         - Edit user
+         - Delete user
