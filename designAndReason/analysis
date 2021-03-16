@@ -1,33 +1,35 @@
-Product owner
+Product owner :
     - What is the vision of the system, what are you trying to solve
         eg. Give me a vision of what the system is trying to solve and who are the target users that will be using the system.
 
     - How is he going to achieve the vision
         eg. Is the application going to be web based, desktop application or app?
 
-    - Is the a set of standard that we must abide too?
-        eg. The application must resonate with a specific set users of the system?
+    - Are there a set of standards that we must abide too?
+        eg. The application must resonate with a specific set of users for the system?
             ie. Iphone users or Andriod users as an example?
 
-    -
+    - How do a keep track of the available licenses
+
+    - How do the licenses vary interms of users
 
 UX designer :
     - Is the application going to be web based, desktop application or app?
-    - What error should displayed displayed when the set number of licenses has exceeded.
+    - What error should be displayed when the set number of licenses has exceeded.
     - What confirmation message should be displayed on the screen to ensure or give an impression to the user that they have
     successfully added a user.
-    - When editing user information, what details can we edit and confirmation screen?
-    - How will the list of user be order?
+    - When editing user information, what details can we edit and confirm on the confirmation screen?
+    - How will the list of users be sorted / In which order will the users be listed
 
-Technical Architect
-    - How will the application be divided 2 tier or 3 tier?
+Technical Architect :
+    - How will the application be divided, 2 tier or 3 tier?
     - Where will the user licenses be store?
     - How will the system access the license server?
-    - Is the a service in between the application
+    - Is there a service in between the application
         - What standard is the service using?
         - What protocol is the service using?
     - What programming language will be used?
-    - What servers the application will be running on
+    - What servers will the application will be running on
     - What are the specs of the server
         - Memory
         - CPU
@@ -39,7 +41,7 @@ Technical Architect
         - Edit user
         - Delete user
 
-    - On Add user, the input field that are required to add user should be displayed.
+    - On Add user, the input fields that are required to add user should be displayed.
     - A confirmation message screen should be displayed with the user details to re-confirm the submission of the user to be added
     - A back button to allow the user to be able to edit the information or cancel.
     - A confirmation message to confirm that a new user has been added successfully
